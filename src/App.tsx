@@ -49,7 +49,7 @@ const App: FC = () => {
             onChange={handleChange}
           ></input>
         </div>
-        <button onClick={addTask}> Add Tcask</button>
+        <button onClick={addTask}> Add Task</button>
       </div>
       <div className="todoList">
         {todoList.map((task: ITask, key: number) => {
